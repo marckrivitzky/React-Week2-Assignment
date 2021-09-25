@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+input[ type="radio"]{
+display: none;
+}
+
+.star{
+cursor: pointer;
+transition: color 200ms;
+}
+
+#shutter-island-card{
+text-align: center;
+width: 320px;
+height: 550px;
+overflow:scroll;
+}
+
+#shutter-island-pic{
+display: block;
+margin: auto;
+text-align: center;
+height: 130px;
+width: 100px;
+}
+
+#the-town-card{
+text-align: center;
+width: 320px;
+height: 550px;
+overflow:scroll;
+}
+
+#the-town-pic{
+display: block;
+margin: auto;
+text-align: center;
+height: 130px;
+width: 100px;
+}
+
+#life-of-pi-pic{
+display: block;
+margin: auto;
+text-align: center;
+height: 130px;
+width: 100px;
+}
+
+#life-of-pi-card{
+text-align: center;
+width: 320px;
+height: 550px;
+overflow:scroll;
+}
+
+#wreck-it-ralph-pic{
+display: block;
+margin: auto;
+text-align: center;
+height: 130px;
+width: 100px;
+}
+
+#wreck-it-ralph-card{
+text-align: center;
+width: 320px;
+height: 550px;
+overflow:scroll;
+}
+
+h1{
+text-align: center;
+font-family:fantasy;
+background-image: linear-gradient(to left, violet, indigo, green, blue, yellow, orange, red);
+-webkit-background-clip: text;
+-moz-background-clip: text;
+background-clip: text;
+color: transparent;
+
+}
+
+h3{
+font-family: fantasy;
+}
+
+#root{
+background-color: blanchedalmond;
+}
+
+#comment-box{
+width: 200px;
+}
+
+.scroll {
+    max-height: 800px;
+    overflow-y: auto;
+}
+
+#review-line{
+width: 270px;
+}
+
+#cartoon-cam{
+position: relative;
+left: 460px;
+top: 40px
+}
+
